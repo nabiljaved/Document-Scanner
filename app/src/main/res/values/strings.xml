@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="text_gallery">Gallery</string>
+    <string name="text_camera">Camera</string>
+</resources>

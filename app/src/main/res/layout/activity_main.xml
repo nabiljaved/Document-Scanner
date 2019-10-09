@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/scannedImage"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/ic_camera_alt_black_24dp"
+        />
+<Button
+    android:layout_below="@+id/scannedImage"
+    android:id="@+id/open_cam"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:text="Open Camera"
+    android:textSize="20sp"
+    android:background="#ff6600"
+    android:textColor="#ffffff"
+    />
+
+    <Button
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/open_cam"
+        android:id="@+id/open_gall"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Open Gallery"
+        android:textSize="20sp"
+        android:background="#006600"
+        android:textColor="#ffffff"
+        />
+
+    <ImageView
+        android:layout_marginTop="17dp"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_below="@id/open_gall"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/profile"
+        />
+
+</RelativeLayout>
